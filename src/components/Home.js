@@ -1,5 +1,4 @@
 import hero from "./hero.png";
-import Works from "./Works";
 const Home = () => {
   return (
     <div className="home-content">
@@ -8,15 +7,19 @@ const Home = () => {
           <div className="hello">Hello, I am</div>
           <div className="name">Idris Qozim</div>
           <div className="topic">
-            {" "}
-            <Works />
+            <ul>
+              <li>Professsional Web Developer </li>
+              <li>Embedded Systems Engineer </li>
+              <li>3D Modeler </li>
+              <li>IT Support Specialist </li>
+            </ul>
           </div>
           <p>
             <span style={{ fontWeight: "bold" }}>Idris Qozim </span>
-            is a professional web developer with react who build personal and
-            professional webapps for small, medium and large organizations, a 3D
-            Modeler with SolidWorks, an IT Support specialist, and an Embedded
-            Systems Engineer.
+            is a professional web developer with proficiency in react who build
+            personal and professional webapps for small, medium and large
+            organizations, a 3D Modeler with SolidWorks, an IT Support
+            specialist, and an Embedded Systems Engineer.
           </p>
         </div>
         <div className="btn">

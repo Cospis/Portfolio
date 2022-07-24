@@ -12,19 +12,19 @@ const Navbars = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Nav.Link as={Link} to="/Home">
+          <Nav.Link as={Link} to="/Home" eventKey="1">
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/abt">
+          <Nav.Link as={Link} to="/abt" eventKey="2">
             About
           </Nav.Link>
-          <Nav.Link as={Link} to="/ser">
+          <Nav.Link as={Link} to="/ser" eventKey="3">
             Services
           </Nav.Link>
-          <Nav.Link as={Link} to="/port">
+          <Nav.Link as={Link} to="/port" eventKey="4">
             Portfolio
           </Nav.Link>
-          <Nav.Link as={Link} to="/exp">
+          <Nav.Link as={Link} to="/exp" eventKey="5">
             Experience
           </Nav.Link>
         </Navbar.Collapse>
