@@ -20,7 +20,9 @@ const Home = () => {
           </p>
         </div>
         <div className="btn">
-          <button>Contact Me</button>
+          <a href="mailto:qozimidris@gmail.com?Subject=I Have a job for you">
+            <button>Contact Me</button>
+          </a>
         </div>
       </div>
       <div className="img">

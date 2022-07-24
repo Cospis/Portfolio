@@ -10,7 +10,7 @@ const Works = () => {
           "3D Modeler",
           "IT Support Specialist",
         ]}
-        cursor="_"
+        cursor=" "
         speed={100}
         eraseSpeed={100}
         eraseDelay={1500}

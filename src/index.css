@@ -37,10 +37,6 @@ margin-bottom: 0%;
   max-width: 50%;
   padding-top: 7%;
 }
-.home-content img{
-  position: relative;
-  /* left: 60%; */
-}
 .name{
   font-weight: bolder;
   font-size: 5rem;
@@ -60,4 +56,29 @@ button{
 .home p{
   font-size: 1.3rem;
   text-align: justify;
+}
+@media screen and (max-width: 600px) {
+  .home-content img {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+  .home-content .text{
+    max-width: 100%;
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .home-content .text .btn{
+    display: flex;
+    justify-content: center;
+  }
+  .topic{
+    font-size: 5vw;
+    margin: 5% 0%;
+  }
+  .name{
+    font-weight: bold;
+    font-size: 3rem;
+  }
 }
